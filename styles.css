@@ -5,8 +5,8 @@
     }
 
     body{
-      background:#050505;
-      color:white;
+      background:var(--color-bg);
+      color:var(--color-text);
       font-family:'Inter', sans-serif;
       overflow:hidden;
     }
@@ -35,7 +35,7 @@
       position:absolute;
       width:3px;
       height:3px;
-      background:white;
+      background:var(--color-text);
       border-radius:50%;
       opacity:0.4;
 
@@ -163,7 +163,7 @@
 
     .primary{
       background:#8b5cf6;
-      color:white;
+      color:var(--color-text);
       box-shadow:0 0 20px rgba(139,92,246,0.5);
     }
 
@@ -175,7 +175,7 @@
     .secondary{
       background:transparent;
       border:1px solid rgba(255,255,255,0.2);
-      color:white;
+      color:var(--color-text);
       backdrop-filter:blur(10px);
     }
 
